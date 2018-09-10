@@ -1,0 +1,10 @@
+node_modules
+*.log
+buildClient
+buildServer
+serverSend.bash
+exclude-list.txt
+.htaccess
+src/test
+/backpage
+.vscode

@@ -1,0 +1,18 @@
+* p {
+ line-height: 1.5em;
+}
+
+.container {
+  padding: 5px 5vw 5px 5vw;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (min-width: 400px) {
+    .container {
+      padding-left: 10vw;
+      padding-right: 10vw;
+    }
+}

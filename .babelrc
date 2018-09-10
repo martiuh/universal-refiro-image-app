@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-2",
+    "es2015"
+  ],
+
+  "plugins": [
+    "universal-import",
+    "transform-runtime",
+    "transform-class-properties"
+  ],
+
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-react-inline-elements",
+        "transform-react-constant-elements"
+      ]
+    }
+  }
+}
